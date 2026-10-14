@@ -16,3 +16,21 @@ body {
     color: #55401e;
     overflow-x: hidden;
 }
+
+header {
+    background: #fffaf0;
+    border-bottom: 2px solid #d4af37;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
